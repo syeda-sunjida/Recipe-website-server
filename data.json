@@ -1,0 +1,124 @@
+[
+    {
+      "chefId": "1",
+      "picture": "https://example.com/chef1.jpg",
+      "bio": "Chef Hasan has over 10 years of experience in Bengali cuisine. He is known for his unique and flavorful dishes.",
+      "totalRecipes": 50,
+      "ratings": 4.8,
+      "likes": 1200,
+      "yearOfExperience": 10,
+      "recipes": [
+        {
+          "recipeId": "1",
+          "name": "Shorshe Ilish",
+          "picture": "https://example.com/shorshe-ilish.jpg",
+          "ingredients": ["Hilsa fish", "Mustard oil", "Mustard paste", "Green chili", "Turmeric powder", "Salt"],
+          "method": "Marinate the fish with salt and turmeric powder. Heat mustard oil in a pan, fry the fish until golden brown. In the same oil, add mustard paste, green chili, salt and turmeric powder. Add water, bring to boil and add the fried fish. Simmer for 10 minutes and serve hot with steamed rice."
+        },
+        {
+          "recipeId": "2",
+          "name": "Chingri Macher Malai Curry",
+          "picture": "https://example.com/chingri-macher-malai-curry.jpg",
+          "ingredients": ["Prawns", "Coconut milk", "Mustard oil", "Ginger paste", "Garlic paste", "Onion", "Green chili", "Turmeric powder", "Salt"],
+          "method": "Heat mustard oil in a pan, saute onion, ginger paste, garlic paste and green chili. Add prawns, turmeric powder and salt. Fry until the prawns turn pink. Add coconut milk and simmer for 5 minutes. Serve hot with steamed rice."
+        }
+      ]
+    },
+    {
+      "chefId": "2",
+      "picture": "https://example.com/chef2.jpg",
+      "bio": "Chef Rahman is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
+      "totalRecipes": 30,
+      "ratings": 4.5,
+      "likes": 900,
+      "yearOfExperience": 7,
+      "recipes": [
+        {
+          "recipeId": "1",
+          "name": "Kosha Mangsho",
+          "picture": "https://example.com/kosha-mangsho.jpg",
+          "ingredients": ["Mutton", "Mustard oil", "Onion", "Ginger paste", "Garlic paste", "Tomato", "Green chili", "Turmeric powder", "Cumin powder", "Coriander powder", "Salt"],
+          "method": "Heat mustard oil in a pan, add onion and green chili. Fry until golden brown. Add ginger paste, garlic paste, turmeric powder, cumin powder, coriander powder and salt. Add tomato and fry until oil separates. Add mutton and fry until it changes color. Add water and simmer until the mutton is tender. Serve hot with paratha or rice."
+        },
+        {
+          "recipeId": "2",
+          "name": "Chitol Macher Muithya",
+          "picture": "https://example.com/chitol-macher-muithya.jpg",
+          "ingredients": ["Chitol fish", "Bengal gram flour", "Onion", "Garlic paste", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
+          "method": "Heat mustard oil in a pan, saute onion, ginger paste, garlic paste and green chili. Add prawns, turmeric powder and salt. Fry until the prawns turn pink. Add coconut milk and simmer for 5 minutes. Serve hot with steamed rice."
+        }]
+    },
+    {
+        "chefId": "3",
+        "picture": "https://example.com/chef2.jpg",
+        "bio": "Chef Rahman is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
+        "totalRecipes": 30,
+        "ratings": 4.5,
+        "likes": 900,
+        "yearOfExperience": 7,
+        "recipes": [
+          {
+            "recipeId": "1",
+            "name": "Kosha Mangsho",
+            "picture": "https://example.com/kosha-mangsho.jpg",
+            "ingredients": ["Mutton", "Mustard oil", "Onion", "Ginger paste", "Garlic paste", "Tomato", "Green chili", "Turmeric powder", "Cumin powder", "Coriander powder", "Salt"],
+            "method": "Heat mustard oil in a pan, add onion and green chili. Fry until golden brown. Add ginger paste, garlic paste, turmeric powder, cumin powder, coriander powder and salt. Add tomato and fry until oil separates. Add mutton and fry until it changes color. Add water and simmer until the mutton is tender. Serve hot with paratha or rice."
+          },
+          {
+            "recipeId": "2",
+            "name": "Chitol Macher Muithya",
+            "picture": "https://example.com/chitol-macher-muithya.jpg",
+            "ingredients": ["Chitol fish", "Bengal gram flour", "Onion", "Garlic paste", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
+            "method": "Heat mustard oil in a pan, saute onion, ginger paste, garlic paste and green chili. Add prawns, turmeric powder and salt. Fry until the prawns turn pink. Add coconut milk and simmer for 5 minutes. Serve hot with steamed rice."
+          }]
+      },
+      {
+        "chefId": "4",
+        "picture": "https://example.com/chef2.jpg",
+        "bio": "Chef Rahman is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
+        "totalRecipes": 30,
+        "ratings": 4.5,
+        "likes": 900,
+        "yearOfExperience": 7,
+        "recipes": [
+          {
+            "recipeId": "1",
+            "name": "Kosha Mangsho",
+            "picture": "https://example.com/kosha-mangsho.jpg",
+            "ingredients": ["Mutton", "Mustard oil", "Onion", "Ginger paste", "Garlic paste", "Tomato", "Green chili", "Turmeric powder", "Cumin powder", "Coriander powder", "Salt"],
+            "method": "Heat mustard oil in a pan, add onion and green chili. Fry until golden brown. Add ginger paste, garlic paste, turmeric powder, cumin powder, coriander powder and salt. Add tomato and fry until oil separates. Add mutton and fry until it changes color. Add water and simmer until the mutton is tender. Serve hot with paratha or rice."
+          },
+          {
+            "recipeId": "2",
+            "name": "Chitol Macher Muithya",
+            "picture": "https://example.com/chitol-macher-muithya.jpg",
+            "ingredients": ["Chitol fish", "Bengal gram flour", "Onion", "Garlic paste", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
+            "method": "Heat mustard oil in a pan, saute onion, ginger paste, garlic paste and green chili. Add prawns, turmeric powder and salt. Fry until the prawns turn pink. Add coconut milk and simmer for 5 minutes. Serve hot with steamed rice."
+          }]
+      },
+      {
+        "chefId": "5",
+        "picture": "https://example.com/chef2.jpg",
+        "bio": "Chef Rahman is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
+        "totalRecipes": 30,
+        "ratings": 4.5,
+        "likes": 900,
+        "yearOfExperience": 7,
+        "recipes": [
+          {
+            "recipeId": "1",
+            "name": "Kosha Mangsho",
+            "picture": "https://example.com/kosha-mangsho.jpg",
+            "ingredients": ["Mutton", "Mustard oil", "Onion", "Ginger paste", "Garlic paste", "Tomato", "Green chili", "Turmeric powder", "Cumin powder", "Coriander powder", "Salt"],
+            "method": "Heat mustard oil in a pan, add onion and green chili. Fry until golden brown. Add ginger paste, garlic paste, turmeric powder, cumin powder, coriander powder and salt. Add tomato and fry until oil separates. Add mutton and fry until it changes color. Add water and simmer until the mutton is tender. Serve hot with paratha or rice."
+          },
+          {
+            "recipeId": "2",
+            "name": "Chitol Macher Muithya",
+            "picture": "https://example.com/chitol-macher-muithya.jpg",
+            "ingredients": ["Chitol fish", "Bengal gram flour", "Onion", "Garlic paste", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
+            "method": "Heat mustard oil in a pan, saute onion, ginger paste, garlic paste and green chili. Add prawns, turmeric powder and salt. Fry until the prawns turn pink. Add coconut milk and simmer for 5 minutes. Serve hot with steamed rice."
+          }]
+      }
+
+]  
