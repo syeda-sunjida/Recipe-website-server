@@ -14,3 +14,4 @@ app.listen(5000,() => {
 
 // index done
 // vercel add done
+// server site edit done with cors
