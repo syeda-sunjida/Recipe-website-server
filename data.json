@@ -1,6 +1,6 @@
 [
     {
-      "chefId": "1",
+      "id": "1",
       "picture": "https://example.com/chef1.jpg",
       "bio": "Chef Hasan has over 10 years of experience in Bengali cuisine. He is known for his unique and flavorful dishes.",
       "totalRecipes": 50,
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "chefId": "2",
+      "id": "2",
       "picture": "https://example.com/chef2.jpg",
       "bio": "Chef Rahman is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
       "totalRecipes": 30,
@@ -49,7 +49,7 @@
         }]
     },
     {
-        "chefId": "3",
+        "id": "3",
         "picture": "https://example.com/chef2.jpg",
         "bio": "Chef Amin is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
         "totalRecipes": 30,
@@ -73,7 +73,7 @@
           }]
       },
       {
-        "chefId": "4",
+        "id": "4",
         "picture": "https://example.com/chef2.jpg",
         "bio": "Chef khan is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
         "totalRecipes": 30,
@@ -97,7 +97,31 @@
           }]
       },
       {
-        "chefId": "5",
+        "id": "5",
+        "picture": "https://example.com/chef2.jpg",
+        "bio": "Chef Arif is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
+        "totalRecipes": 30,
+        "ratings": 4.5,
+        "likes": 900,
+        "yearOfExperience": 7,
+        "recipes": [
+          {
+            "recipeId": "1",
+            "name": "kobutor Mangsho",
+            "picture": "https://example.com/kosha-mangsho.jpg",
+            "ingredients": ["Mutton", "Mustard oil", "Onion", "Ginger paste", "Garlic paste", "Tomato", "Green chili", "Turmeric powder", "Cumin powder", "Coriander powder", "Salt"],
+            "method": "Heat mustard oil in a pan, add onion and green chili. Fry until golden brown. Add ginger paste, garlic paste, turmeric powder, cumin powder, coriander powder and salt. Add tomato and fry until oil separates. Add mutton and fry until it changes color. Add water and simmer until the mutton is tender. Serve hot with paratha or rice."
+          },
+          {
+            "recipeId": "2",
+            "name": "ilish Macher Muithya",
+            "picture": "https://example.com/chitol-macher-muithya.jpg",
+            "ingredients": ["Chitol fish", "Bengal gram flour", "Onion", "Garlic paste", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
+            "method": "Heat mustard oil in a pan, saute onion, ginger paste, garlic paste and green chili. Add prawns, turmeric powder and salt. Fry until the prawns turn pink. Add coconut milk and simmer for 5 minutes. Serve hot with steamed rice."
+          }]
+      },
+      {
+        "id": "6",
         "picture": "https://example.com/chef2.jpg",
         "bio": "Chef Arif is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
         "totalRecipes": 30,

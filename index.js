@@ -4,10 +4,19 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 const allServices = require("./data.json")
-app.get("/", (req, res)=> {
+app.get("/all", (req, res)=> {
     res.send(allServices);
 
 });
+app.get("/all/:id", (req, res) => {
+    const Id = req.params.id;
+    const category = allServices.find(item => item.id === Id);
+    if (!category) {
+      return res.status(404).send('Category not found');
+    }
+    res.send(category);
+  });
+
 app.listen(5000,() => {
     console.log("server is running");
 });
