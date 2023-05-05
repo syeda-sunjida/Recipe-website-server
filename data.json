@@ -1,148 +1,530 @@
 [
     {
-      "id": "1",
-      "picture": "https://example.com/chef1.jpg",
-      "bio": "Chef Hasan has over 10 years of experience in Bengali cuisine. He is known for his unique and flavorful dishes.",
-      "totalRecipes": 50,
-      "ratings": 4.8,
-      "likes": 1200,
-      "yearOfExperience": 10,
-      "recipes": [
-        {
-          "recipeId": "1",
-          "name": "Shorshe Ilish",
-          "picture": "https://example.com/shorshe-ilish.jpg",
-          "ingredients": ["Hilsa fish", "Mustard oil", "Mustard paste", "Green chili", "Turmeric powder", "Salt"],
-          "method": "Marinate the fish with salt and turmeric powder. Heat mustard oil in a pan, fry the fish until golden brown. In the same oil, add mustard paste, green chili, salt and turmeric powder. Add water, bring to boil and add the fried fish. Simmer for 10 minutes and serve hot with steamed rice."
-        },
-        {
-          "recipeId": "2",
-          "name": "Chingri Macher Malai Curry",
-          "picture": "https://example.com/chingri-macher-malai-curry.jpg",
-          "ingredients": ["Prawns", "Coconut milk", "Mustard oil", "Ginger paste", "Garlic paste", "Onion", "Green chili", "Turmeric powder", "Salt"],
-          "method": "Heat mustard oil in a pan, saute onion, ginger paste, garlic paste and green chili. Add prawns, turmeric powder and salt. Fry until the prawns turn pink. Add coconut milk and simmer for 5 minutes. Serve hot with steamed rice."
-        }
-      ]
+        "id": 1,
+        "chefPicture": "https://im.rediff.com/getahead/2015/mar/27chef-ranveer-brar-1.jpg",
+        "chefName": "Hasan",
+        "yearsOfExperience": 10,
+        "numberOfRecipes": 30,
+        "likes": 5000,
+        "chefBio": " While it maybe the norm for women to man the kitchen at home, it has never been easy for them in a restaurant kitchen which is unarguably a male bastion.",
+        "recipes": [
+            {
+                "_id": 101,
+                "name": "Mutton Kosha",
+                "thumbnail": "https://eisamay.com/thumb/88237834/mutton-kosha-recipe-88237834.jpg?imgsize=95464&width=1200&height=900&resizemode=75",
+                "details": "A classic French dish of chicken cooked in red wine with bacon, mushrooms, and onions. This hearty stew is perfect for a cozy dinner on a cold evening.",
+                "ingredients": [ 
+                    "4 chicken legs",
+                    "4 chicken thighs",
+                    "Salt and pepper",
+                    "1/4 cup all-purpose flour",
+                    "4 tablespoons unsalted butter",
+                    "4 ounces bacon, diced",
+                    "1 onion, chopped",
+                    "8 ounces button mushrooms, sliced"
+                ],
+                "cookingMethod": "1. Preheat the oven to 350°F (180°C).\n2. Season the chicken with salt and pepper, and dust with flour.\n3. Melt the butter in a large Dutch oven over medium-high heat. Add the chicken and cook until browned on both sides, about 5 minutes per side. Remove the chicken from the pan and set aside.\n4. Add the bacon to the pan and cook until crispy. Remove the bacon from the pan and set aside.\n5. Add the onion, mushrooms, and garlic to the pan and cook until softened, about 5 minutes. Stir in the tomato paste and cook for 1 minute.\n6. ",
+                "rating": 4.7
+            },
+            {
+                "_id": 102,
+                "name": "Mutton Kosha",
+                "thumbnail": "https://eisamay.com/thumb/88237834/mutton-kosha-recipe-88237834.jpg?imgsize=95464&width=1200&height=900&resizemode=75",
+                "details": "A traditional French vegetable stew that's hearty, healthy, and full of flavor. Made with fresh vegetables and aromatic herbs, it's a perfect dish for any time of the year.",
+                "ingredients": [
+                    "1 large eggplant, diced",
+                    "2 zucchinis, diced",
+                    "1 red bell pepper, diced",
+                    "1 yellow onion, diced",
+                    "4 cloves garlic, minced",
+                    "2 tablespoons olive oil",
+                    "1 can (14 oz) diced tomatoes",
+                    "1 tablespoon tomato paste",
+                    "1 tablespoon chopped fresh thyme",
+                    "1 tablespoon chopped fresh rosemary"
+                ],
+                "cookingMethod": "1. In a large skillet, heat olive oil over medium-high heat.\n2. Add eggplant and cook for 5-7 minutes, stirring occasionally, until browned.\n3. Add zucchini, bell pepper, onion, and garlic. Cook for 5-7 minutes, until vegetables are softened.\n4. Add diced tomatoes, tomato paste, thyme, rosemary, salt, and black pepper.\n5. Bring to a boil, then reduce heat to low and simmer for 15-20 minutes, stirring occasionally.\n6. Serve hot.",
+                "rating": 4.6
+            },
+            {
+                "_id": 103,
+                "name": "Mutton Kosha",
+                "thumbnail": "https://eisamay.com/thumb/88237834/mutton-kosha-recipe-88237834.jpg?imgsize=95464&width=1200&height=900&resizemode=75",
+                "details": "A classic French beef stew made with red wine, bacon, and vegetables. Slow-cooked to perfection for a comforting and hearty meal.",
+                "ingredients": [
+                    "2 pounds beef chuck roast, cut into 2-inch pieces",
+                    "6 slices bacon, chopped",
+                    "2 tablespoons olive oil",
+                    "2 cups red wine",
+                    "2 cups beef broth",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "2 carrots, chopped",
+                    "2 stalks celery, chopped"
+                ],
+                "cookingMethod": "1. Preheat oven to 325°F.\n2. In a large Dutch oven, cook bacon over medium heat until crispy. Remove from pan and set aside.\n3. Add olive oil to the pan and brown beef on all sides. Remove from pan and set aside.\n4. Add onion, garlic, carrots, and celery to the pan and sauté until softened.\n5. Add tomato paste and stir to combine.\n6. Add red wine and beef broth and bring to a simmer.\n7. Return beef and bacon to the pan.\n8. Add bay leaves, thyme, salt, and pepper.\n9. Cover the pan and transfer to the oven.\n10. Cook for 2-3 hours, or until beef is tender.\n11. Remove bay leaves and serve hot.",
+                "rating": 4.9
+            },
+            {
+                "_id": 104,
+                "name": "Mutton Kosha",
+                "thumbnail": "https://eisamay.com/thumb/88237834/mutton-kosha-recipe-88237834.jpg?imgsize=95464&width=1200&height=900&resizemode=75",
+                "details": "A comforting and rich soup made with caramelized onions, beef broth, and topped with melted cheese and bread. Perfect for a cozy dinner or lunch.",
+                "ingredients": [
+                    "5 large yellow onions, thinly sliced",
+                    "4 tablespoons butter",
+                    "2 tablespoons olive oil",
+                    "1 teaspoon salt",
+                    "1/2 teaspoon sugar",
+                    "8 cups beef broth",
+                    "2 cups water",
+                    "1/2 cup red wine",
+                    "1/2 cup Parmesan cheese, grated",
+                    "Salt and pepper to taste"
+                ],
+                "cookingMethod": "1. Melt butter and olive oil in a large pot over medium heat. Add onions, salt, and sugar. Cook onions, stirring occasionally, for about 45 minutes, or until caramelized.\n2. Add garlic and cook for 2-3 minutes, or until fragrant.\n3. Add beef broth, water, red wine, bay leaves, and thyme. Bring to a simmer and cook for 30 minutes.\n4. Preheat oven to 350°F.\n5. Arrange baguette slices on a baking sheet and toast in the oven for 10-15 minutes, or until crispy.",
+                "rating": 4.8
+            }
+        ]
     },
     {
-      "id": "2",
-      "picture": "https://example.com/chef2.jpg",
-      "bio": "Chef Rahman is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
-      "totalRecipes": 30,
-      "ratings": 4.5,
-      "likes": 900,
-      "yearOfExperience": 7,
-      "recipes": [
-        {
-          "recipeId": "1",
-          "name": "Kosha Mangsho",
-          "picture": "https://example.com/kosha-mangsho.jpg",
-          "ingredients": ["Mutton", "Mustard oil", "Onion", "Ginger paste", "Garlic paste", "Tomato", "Green chili", "Turmeric powder", "Cumin powder", "Coriander powder", "Salt"],
-          "method": "Heat mustard oil in a pan, add onion and green chili. Fry until golden brown. Add ginger paste, garlic paste, turmeric powder, cumin powder, coriander powder and salt. Add tomato and fry until oil separates. Add mutton and fry until it changes color. Add water and simmer until the mutton is tender. Serve hot with paratha or rice."
-        },
-        {
-          "recipeId": "2",
-          "name": "Chitol Macher Muithya",
-          "picture": "https://example.com/chitol-macher-muithya.jpg",
-          "ingredients": ["Chitol fish", "Bengal gram flour", "Onion", "Garlic paste", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
-          "method": "Heat mustard oil in a pan, saute onion, ginger paste, garlic paste and green chili. Add prawns, turmeric powder and salt. Fry until the prawns turn pink. Add coconut milk and simmer for 5 minutes. Serve hot with steamed rice."
-        }]
+        "id": 2,
+        "chefPicture": "https://res.cloudinary.com/purnesh/image/upload/f_auto/v1589353547/vineet-bhatia-1.jpg",
+        "chefName": "Arif",
+        "yearsOfExperience": 50,
+        "numberOfRecipes": 400,
+        "likes": 9000,
+        "chefBio": "While it maybe the norm for women to man the kitchen at home, it has never been easy for them in a restaurant kitchen which is unarguably a male bastion.",
+        "recipes": [
+            {
+                "_id": 101,
+                "name": "Mutton Kosha",
+                "thumbnail": "https://eisamay.com/thumb/88237834/mutton-kosha-recipe-88237834.jpg?imgsize=95464&width=1200&height=900&resizemode=75",
+                "details": "A classic French dish of chicken cooked in red wine with bacon, mushrooms, and onions. This hearty stew is perfect for a cozy dinner on a cold evening.",
+                "ingredients": [
+                    "4 chicken legs",
+                    "4 chicken thighs",
+                    "Salt and pepper",
+                    "1/4 cup all-purpose flour",
+                    "4 tablespoons unsalted butter",
+                    "4 ounces bacon, diced",
+                    "1 onion, chopped",
+                    "8 ounces button mushrooms, sliced"
+                ],
+                "cookingMethod": "1. Preheat the oven to 350°F (180°C).\n2. Season the chicken with salt and pepper, and dust with flour.\n3. Melt the butter in a large Dutch oven over medium-high heat. Add the chicken and cook until browned on both sides, about 5 minutes per side. Remove the chicken from the pan and set aside.\n4. Add the bacon to the pan and cook until crispy. Remove the bacon from the pan and set aside.\n5. Add the onion, mushrooms, and garlic to the pan and cook until softened, about 5 minutes. Stir in the tomato paste and cook for 1 minute.\n6. ",
+                "rating": 4.7
+            },
+            {
+                "_id": 102,
+                "name": "Mutton Kosha",
+                "thumbnail": "https://eisamay.com/thumb/88237834/mutton-kosha-recipe-88237834.jpg?imgsize=95464&width=1200&height=900&resizemode=75",
+                "details": "A traditional French vegetable stew that's hearty, healthy, and full of flavor. Made with fresh vegetables and aromatic herbs, it's a perfect dish for any time of the year.",
+                "ingredients": [
+                    "1 large eggplant, diced",
+                    "2 zucchinis, diced",
+                    "1 red bell pepper, diced",
+                    "1 yellow onion, diced",
+                    "4 cloves garlic, minced",
+                    "2 tablespoons olive oil",
+                    "1 can (14 oz) diced tomatoes",
+                    "1 tablespoon tomato paste",
+                    "1 tablespoon chopped fresh thyme",
+                    "1 tablespoon chopped fresh rosemary"
+                ],
+                "cookingMethod": "1. In a large skillet, heat olive oil over medium-high heat.\n2. Add eggplant and cook for 5-7 minutes, stirring occasionally, until browned.\n3. Add zucchini, bell pepper, onion, and garlic. Cook for 5-7 minutes, until vegetables are softened.\n4. Add diced tomatoes, tomato paste, thyme, rosemary, salt, and black pepper.\n5. Bring to a boil, then reduce heat to low and simmer for 15-20 minutes, stirring occasionally.\n6. Serve hot.",
+                "rating": 4.6
+            },
+            {
+                "_id": 103, 
+                "name": "Mutton Kosha",
+                "thumbnail": "https://eisamay.com/thumb/88237834/mutton-kosha-recipe-88237834.jpg?imgsize=95464&width=1200&height=900&resizemode=75",
+                "details": "A classic French beef stew made with red wine, bacon, and vegetables. Slow-cooked to perfection for a comforting and hearty meal.",
+                "ingredients": [
+                    "2 pounds beef chuck roast, cut into 2-inch pieces",
+                    "6 slices bacon, chopped",
+                    "2 tablespoons olive oil",
+                    "2 cups red wine",
+                    "2 cups beef broth",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "2 carrots, chopped",
+                    "2 stalks celery, chopped"
+                ],
+                "cookingMethod": "1. Preheat oven to 325°F.\n2. In a large Dutch oven, cook bacon over medium heat until crispy. Remove from pan and set aside.\n3. Add olive oil to the pan and brown beef on all sides. Remove from pan and set aside.\n4. Add onion, garlic, carrots, and celery to the pan and sauté until softened.\n5. Add tomato paste and stir to combine.\n6. Add red wine and beef broth and bring to a simmer.\n7. Return beef and bacon to the pan.\n8. Add bay leaves, thyme, salt, and pepper.\n9. Cover the pan and transfer to the oven.\n10. Cook for 2-3 hours, or until beef is tender.\n11. Remove bay leaves and serve hot.",
+                "rating": 4.9
+            },
+            {
+                "_id": 104,
+                "name": "Mutton Kosha",
+                "thumbnail": "https://eisamay.com/thumb/88237834/mutton-kosha-recipe-88237834.jpg?imgsize=95464&width=1200&height=900&resizemode=75",
+                "details": "A comforting and rich soup made with caramelized onions, beef broth, and topped with melted cheese and bread. Perfect for a cozy dinner or lunch.",
+                "ingredients": [
+                    "5 large yellow onions, thinly sliced",
+                    "4 tablespoons butter",
+                    "2 tablespoons olive oil",
+                    "1 teaspoon salt",
+                    "1/2 teaspoon sugar",
+                    "8 cups beef broth",
+                    "2 cups water",
+                    "1/2 cup red wine",
+                    "1/2 cup Parmesan cheese, grated",
+                    "Salt and pepper to taste"
+                ],
+                "cookingMethod": "1. Melt butter and olive oil in a large pot over medium heat. Add onions, salt, and sugar. Cook onions, stirring occasionally, for about 45 minutes, or until caramelized.\n2. Add garlic and cook for 2-3 minutes, or until fragrant.\n3. Add beef broth, water, red wine, bay leaves, and thyme. Bring to a simmer and cook for 30 minutes.\n4. Preheat oven to 350°F.\n5. Arrange baguette slices on a baking sheet and toast in the oven for 10-15 minutes, or until crispy.",
+                "rating": 4.8
+            }
+        ]
     },
     {
-        "id": "3",
-        "picture": "https://example.com/chef2.jpg",
-        "bio": "Chef Amin is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
-        "totalRecipes": 30,
-        "ratings": 4.5,
-        "likes": 900,
-        "yearOfExperience": 7,
+        "id": 3,
+        "chefPicture": "https://im.rediff.com/getahead/2016/mar/09womanchef02.jpg",
+        "chefName": "Sara",
+        "yearsOfExperience": 60,
+        "numberOfRecipes": 50,
+        "likes": 1500,
+        "chefBio": "While it maybe the norm for women to man the kitchen at home, it has never been easy for them in a restaurant kitchen which is unarguably a male bastion.",
         "recipes": [
-          {
-            "recipeId": "1",
-            "name": "vuna Mangsho",
-            "picture": "https://example.com/kosha-mangsho.jpg",
-            "ingredients": ["Mutton", "Mustard oil", "Onion", "Ginger paste", "Garlic paste", "Tomato", "Green chili", "Turmeric powder", "Cumin powder", "Coriander powder", "Salt"],
-            "method": "Heat mustard oil in a pan, add onion and green chili. Fry until golden brown. Add ginger paste, garlic paste, turmeric powder, cumin powder, coriander powder and salt. Add tomato and fry until oil separates. Add mutton and fry until it changes color. Add water and simmer until the mutton is tender. Serve hot with paratha or rice."
-          },
-          {
-            "recipeId": "2",
-            "name": "pabda Macher Muithya",
-            "picture": "https://example.com/chitol-macher-muithya.jpg",
-            "ingredients": ["Chitol fish", "Bengal gram flour", "Onion", "Garlic paste", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
-            "method": "Heat mustard oil in a pan, saute onion, ginger paste, garlic paste and green chili. Add prawns, turmeric powder and salt. Fry until the prawns turn pink. Add coconut milk and simmer for 5 minutes. Serve hot with steamed rice."
-          }]
-      },
-      {
-        "id": "4",
-        "picture": "https://example.com/chef2.jpg",
-        "bio": "Chef khan is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
-        "totalRecipes": 30,
-        "ratings": 4.5,
-        "likes": 900,
-        "yearOfExperience": 7,
+            {
+                "_id": 101,
+                "name": "Mutton Kosha",
+                "thumbnail": "https://eisamay.com/thumb/88237834/mutton-kosha-recipe-88237834.jpg?imgsize=95464&width=1200&height=900&resizemode=75",
+                "details": "A classic French dish of chicken cooked in red wine with bacon, mushrooms, and onions. This hearty stew is perfect for a cozy dinner on a cold evening.",
+                "ingredients": [
+                    "4 chicken legs",
+                    "4 chicken thighs",
+                    "Salt and pepper",
+                    "1/4 cup all-purpose flour",
+                    "4 tablespoons unsalted butter",
+                    "4 ounces bacon, diced",
+                    "1 onion, chopped",
+                    "8 ounces button mushrooms, sliced"
+                ],
+                "cookingMethod": "1. Preheat the oven to 350°F (180°C).\n2. Season the chicken with salt and pepper, and dust with flour.\n3. Melt the butter in a large Dutch oven over medium-high heat. Add the chicken and cook until browned on both sides, about 5 minutes per side. Remove the chicken from the pan and set aside.\n4. Add the bacon to the pan and cook until crispy. Remove the bacon from the pan and set aside.\n5. Add the onion, mushrooms, and garlic to the pan and cook until softened, about 5 minutes. Stir in the tomato paste and cook for 1 minute.\n6. ",
+                "rating": 4.7
+            },
+            {
+                "_id": 102,
+                "name": "Mutton Kosha",
+                "thumbnail": "https://eisamay.com/thumb/88237834/mutton-kosha-recipe-88237834.jpg?imgsize=95464&width=1200&height=900&resizemode=75",
+                "details": "A traditional French vegetable stew that's hearty, healthy, and full of flavor. Made with fresh vegetables and aromatic herbs, it's a perfect dish for any time of the year.",
+                "ingredients": [
+                    "1 large eggplant, diced",
+                    "2 zucchinis, diced",
+                    "1 red bell pepper, diced",
+                    "1 yellow onion, diced",
+                    "4 cloves garlic, minced",
+                    "2 tablespoons olive oil",
+                    "1 can (14 oz) diced tomatoes",
+                    "1 tablespoon tomato paste",
+                    "1 tablespoon chopped fresh thyme",
+                    "1 tablespoon chopped fresh rosemary"
+                ],
+                "cookingMethod": "1. In a large skillet, heat olive oil over medium-high heat.\n2. Add eggplant and cook for 5-7 minutes, stirring occasionally, until browned.\n3. Add zucchini, bell pepper, onion, and garlic. Cook for 5-7 minutes, until vegetables are softened.\n4. Add diced tomatoes, tomato paste, thyme, rosemary, salt, and black pepper.\n5. Bring to a boil, then reduce heat to low and simmer for 15-20 minutes, stirring occasionally.\n6. Serve hot.",
+                "rating": 4.6
+            },
+            {
+                "_id": 103,
+                "name": "Mutton Kosha",
+                "thumbnail": "https://eisamay.com/thumb/88237834/mutton-kosha-recipe-88237834.jpg?imgsize=95464&width=1200&height=900&resizemode=75",
+                "details": "A classic French beef stew made with red wine, bacon, and vegetables. Slow-cooked to perfection for a comforting and hearty meal.",
+                "ingredients": [
+                    "2 pounds beef chuck roast, cut into 2-inch pieces",
+                    "6 slices bacon, chopped",
+                    "2 tablespoons olive oil",
+                    "2 cups red wine",
+                    "2 cups beef broth",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "2 carrots, chopped",
+                    "2 stalks celery, chopped"
+                ],
+                "cookingMethod": "1. Preheat oven to 325°F.\n2. In a large Dutch oven, cook bacon over medium heat until crispy. Remove from pan and set aside.\n3. Add olive oil to the pan and brown beef on all sides. Remove from pan and set aside.\n4. Add onion, garlic, carrots, and celery to the pan and sauté until softened.\n5. Add tomato paste and stir to combine.\n6. Add red wine and beef broth and bring to a simmer.\n7. Return beef and bacon to the pan.\n8. Add bay leaves, thyme, salt, and pepper.\n9. Cover the pan and transfer to the oven.\n10. Cook for 2-3 hours, or until beef is tender.\n11. Remove bay leaves and serve hot.",
+                "rating": 4.9
+            },
+            {
+                "_id": 104,
+                "name": "Mutton Kosha",
+                "thumbnail": "https://eisamay.com/thumb/88237834/mutton-kosha-recipe-88237834.jpg?imgsize=95464&width=1200&height=900&resizemode=75",
+                "details": "A comforting and rich soup made with caramelized onions, beef broth, and topped with melted cheese and bread. Perfect for a cozy dinner or lunch.",
+                "ingredients": [
+                    "5 large yellow onions, thinly sliced",
+                    "4 tablespoons butter",
+                    "2 tablespoons olive oil",
+                    "1 teaspoon salt",
+                    "1/2 teaspoon sugar",
+                    "8 cups beef broth",
+                    "2 cups water",
+                    "1/2 cup red wine",
+                    "1/2 cup Parmesan cheese, grated",
+                    "Salt and pepper to taste"
+                ],
+                "cookingMethod": "1. Melt butter and olive oil in a large pot over medium heat. Add onions, salt, and sugar. Cook onions, stirring occasionally, for about 45 minutes, or until caramelized.\n2. Add garlic and cook for 2-3 minutes, or until fragrant.\n3. Add beef broth, water, red wine, bay leaves, and thyme. Bring to a simmer and cook for 30 minutes.\n4. Preheat oven to 350°F.\n5. Arrange baguette slices on a baking sheet and toast in the oven for 10-15 minutes, or until crispy.",
+                "rating": 4.8
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "chefPicture": "https://auditiondateandplace.com/news/wp-content/uploads/2020/06/Popular-Indian-Chef.jpg",
+        "chefName": "Eraz",
+        "yearsOfExperience": 35,
+        "numberOfRecipes": 70,
+        "likes": 1800,
+        "chefBio": "While it maybe the norm for women to man the kitchen at home, it has never been easy for them in a restaurant kitchen which is unarguably a male bastion.",
         "recipes": [
-          {
-            "recipeId": "1",
-            "name": "jhura Mangsho",
-            "picture": "https://example.com/kosha-mangsho.jpg",
-            "ingredients": ["Mutton", "Mustard oil", "Onion", "Ginger paste", "Garlic paste", "Tomato", "Green chili", "Turmeric powder", "Cumin powder", "Coriander powder", "Salt"],
-            "method": "Heat mustard oil in a pan, add onion and green chili. Fry until golden brown. Add ginger paste, garlic paste, turmeric powder, cumin powder, coriander powder and salt. Add tomato and fry until oil separates. Add mutton and fry until it changes color. Add water and simmer until the mutton is tender. Serve hot with paratha or rice."
-          },
-          {
-            "recipeId": "2",
-            "name": "katol Macher Muithya",
-            "picture": "https://example.com/chitol-macher-muithya.jpg",
-            "ingredients": ["Chitol fish", "Bengal gram flour", "Onion", "Garlic paste", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
-            "method": "Heat mustard oil in a pan, saute onion, ginger paste, garlic paste and green chili. Add prawns, turmeric powder and salt. Fry until the prawns turn pink. Add coconut milk and simmer for 5 minutes. Serve hot with steamed rice."
-          }]
-      },
-      {
-        "id": "5",
-        "picture": "https://example.com/chef2.jpg",
-        "bio": "Chef Arif is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
-        "totalRecipes": 30,
-        "ratings": 4.5,
-        "likes": 900,
-        "yearOfExperience": 7,
+            {
+                "_id": 101,
+                "name": "Chiken Basic",
+                "thumbnail": "https://cdn-abioh.nitrocdn.com/iRwsMXPEdaMSNBlSqLBkXmjSJwoqRrps/assets/static/optimized/rev-f3f118f/wp-content/uploads/2019/02/Air-Fryer-Chicken-Breasts-overhead.jpg",
+                "details": "A classic French dish of chicken cooked in red wine with bacon, mushrooms, and onions. This hearty stew is perfect for a cozy dinner on a cold evening.",
+                "ingredients": [
+                    "4 chicken legs",
+                    "4 chicken thighs",
+                    "Salt and pepper",
+                    "1/4 cup all-purpose flour",
+                    "4 tablespoons unsalted butter",
+                    "4 ounces bacon, diced",
+                    "1 onion, chopped",
+                    "8 ounces button mushrooms, sliced"
+                ],
+                "cookingMethod": "1. Preheat the oven to 350°F (180°C).\n2. Season the chicken with salt and pepper, and dust with flour.\n3. Melt the butter in a large Dutch oven over medium-high heat. Add the chicken and cook until browned on both sides, about 5 minutes per side. Remove the chicken from the pan and set aside.\n4. Add the bacon to the pan and cook until crispy. Remove the bacon from the pan and set aside.\n5. Add the onion, mushrooms, and garlic to the pan and cook until softened, about 5 minutes. Stir in the tomato paste and cook for 1 minute.\n6. ",
+                "rating": 4.7
+            },
+            {
+                "_id": 102,
+                "name": "Muri Khondo", 
+                "thumbnail": "https://i.ytimg.com/vi/_lq2MkQ-RCo/maxresdefault.jpg",
+                "details": "A traditional French vegetable stew that's hearty, healthy, and full of flavor. Made with fresh vegetables and aromatic herbs, it's a perfect dish for any time of the year.",
+                "ingredients": [
+                    "1 large eggplant, diced",
+                    "2 zucchinis, diced",
+                    "1 red bell pepper, diced",
+                    "1 yellow onion, diced",
+                    "4 cloves garlic, minced",
+                    "2 tablespoons olive oil",
+                    "1 can (14 oz) diced tomatoes",
+                    "1 tablespoon tomato paste",
+                    "1 tablespoon chopped fresh thyme",
+                    "1 tablespoon chopped fresh rosemary"
+                ],
+                "cookingMethod": "1. In a large skillet, heat olive oil over medium-high heat.\n2. Add eggplant and cook for 5-7 minutes, stirring occasionally, until browned.\n3. Add zucchini, bell pepper, onion, and garlic. Cook for 5-7 minutes, until vegetables are softened.\n4. Add diced tomatoes, tomato paste, thyme, rosemary, salt, and black pepper.\n5. Bring to a boil, then reduce heat to low and simmer for 15-20 minutes, stirring occasionally.\n6. Serve hot.",
+                "rating": 4.6
+            },
+            {
+                "_id": 103,
+                "name": "Mutton Kosha",
+                "thumbnail": "https://eisamay.com/thumb/88237834/mutton-kosha-recipe-88237834.jpg?imgsize=95464&width=1200&height=900&resizemode=75",
+                "details": "A classic French beef stew made with red wine, bacon, and vegetables. Slow-cooked to perfection for a comforting and hearty meal.",
+                "ingredients": [
+                    "2 pounds beef chuck roast, cut into 2-inch pieces",
+                    "6 slices bacon, chopped",
+                    "2 tablespoons olive oil",
+                    "2 cups red wine",
+                    "2 cups beef broth",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "2 carrots, chopped",
+                    "2 stalks celery, chopped"
+                ],
+                "cookingMethod": "1. Preheat oven to 325°F.\n2. In a large Dutch oven, cook bacon over medium heat until crispy. Remove from pan and set aside.\n3. Add olive oil to the pan and brown beef on all sides. Remove from pan and set aside.\n4. Add onion, garlic, carrots, and celery to the pan and sauté until softened.\n5. Add tomato paste and stir to combine.\n6. Add red wine and beef broth and bring to a simmer.\n7. Return beef and bacon to the pan.\n8. Add bay leaves, thyme, salt, and pepper.\n9. Cover the pan and transfer to the oven.\n10. Cook for 2-3 hours, or until beef is tender.\n11. Remove bay leaves and serve hot.",
+                "rating": 4.9
+            },
+            {
+                "_id": 104,
+                "name": " Koliza Singara",
+                "thumbnail": "https://sadeeqagro.com/public/uploads/all/G9650TGJMw2YV0AfQi7rvQZCQjFX629wqLJyijpy.jpg",
+                "details": "A comforting and rich soup made with caramelized onions, beef broth, and topped with melted cheese and bread. Perfect for a cozy dinner or lunch.",
+                "ingredients": [
+                    "5 large yellow onions, thinly sliced",
+                    "4 tablespoons butter",
+                    "2 tablespoons olive oil",
+                    "1 teaspoon salt",
+                    "1/2 teaspoon sugar",
+                    "8 cups beef broth",
+                    "2 cups water",
+                    "1/2 cup red wine",
+                    "1/2 cup Parmesan cheese, grated",
+                    "Salt and pepper to taste"
+                ],
+                "cookingMethod": "1. Melt butter and olive oil in a large pot over medium heat. Add onions, salt, and sugar. Cook onions, stirring occasionally, for about 45 minutes, or until caramelized.\n2. Add garlic and cook for 2-3 minutes, or until fragrant.\n3. Add beef broth, water, red wine, bay leaves, and thyme. Bring to a simmer and cook for 30 minutes.\n4. Preheat oven to 350°F.\n5. Arrange baguette slices on a baking sheet and toast in the oven for 10-15 minutes, or until crispy.",
+                "rating": 4.8
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "chefPicture": "https://www.deccanherald.com/sites/dh/files/article_images/2020/05/19/file7732s80ma824l2vd3em-319629494-1569267001.jpg",
+        "chefName": "Anika",
+        "yearsOfExperience": 30,
+        "numberOfRecipes": 40,
+        "likes": 1200,
+        "chefBio": "While it maybe the norm for women to man the kitchen at home, it has never been easy for them in a restaurant kitchen which is unarguably a male bastion.",
         "recipes": [
-          {
-            "recipeId": "1",
-            "name": "kobutor Mangsho",
-            "picture": "https://example.com/kosha-mangsho.jpg",
-            "ingredients": ["Mutton", "Mustard oil", "Onion", "Ginger paste", "Garlic paste", "Tomato", "Green chili", "Turmeric powder", "Cumin powder", "Coriander powder", "Salt"],
-            "method": "Heat mustard oil in a pan, add onion and green chili. Fry until golden brown. Add ginger paste, garlic paste, turmeric powder, cumin powder, coriander powder and salt. Add tomato and fry until oil separates. Add mutton and fry until it changes color. Add water and simmer until the mutton is tender. Serve hot with paratha or rice."
-          },
-          {
-            "recipeId": "2",
-            "name": "ilish Macher Muithya",
-            "picture": "https://example.com/chitol-macher-muithya.jpg",
-            "ingredients": ["Chitol fish", "Bengal gram flour", "Onion", "Garlic paste", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
-            "method": "Heat mustard oil in a pan, saute onion, ginger paste, garlic paste and green chili. Add prawns, turmeric powder and salt. Fry until the prawns turn pink. Add coconut milk and simmer for 5 minutes. Serve hot with steamed rice."
-          }]
-      },
-      {
-        "id": "6",
-        "picture": "https://example.com/chef2.jpg",
-        "bio": "Chef Arif is a self-taught chef with a passion for experimenting with new flavors and ingredients.",
-        "totalRecipes": 30,
-        "ratings": 4.5,
-        "likes": 900,
-        "yearOfExperience": 7,
+            {
+                "_id": 101,
+                "name": "Chicken Kosha",
+                "thumbnail": "https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/bethica-das15180311275a7b51162284d.jpeg",
+                "details": "A classic French dish of chicken cooked in red wine with bacon, mushrooms, and onions. This hearty stew is perfect for a cozy dinner on a cold evening.",
+                "ingredients": [
+                    "4 chicken legs",
+                    "4 chicken thighs",
+                    "Salt and pepper",
+                    "1/4 cup all-purpose flour",
+                    "4 tablespoons unsalted butter",
+                    "4 ounces bacon, diced",
+                    "1 onion, chopped",
+                    "8 ounces button mushrooms, sliced"
+                ],
+                "cookingMethod": "1. Preheat the oven to 350°F (180°C).\n2. Season the chicken with salt and pepper, and dust with flour.\n3. Melt the butter in a large Dutch oven over medium-high heat. Add the chicken and cook until browned on both sides, about 5 minutes per side. Remove the chicken from the pan and set aside.\n4. Add the bacon to the pan and cook until crispy. Remove the bacon from the pan and set aside.\n5. Add the onion, mushrooms, and garlic to the pan and cook until softened, about 5 minutes. Stir in the tomato paste and cook for 1 minute.\n6. ",
+                "rating": 4.7
+            },
+            {
+                "_id": 102,
+                "name": "Rui Fry",
+                "thumbnail": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhYYGBgaHBocHRwcGh8cHh8kGhwcHB4hJRwcJC4lHB4rHxoaJjgmLC8xNTU1HCQ7QDs0Py40NTEBDAwMEA8QHxISHz8rJCw0NjQ3NjQ0NDQ0PTQ9NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYHAQj/xABGEAACAAQDBQUFBAkDAwMFAAABAgADESEEEjEFQVFhcQYigZGhEzKxwfBCUmLRBxQVgpKisuHxI3LSM0NTRMLiFnOElKP/xAAZAQACAwEAAAAAAAAAAAAAAAAAAwECBAX/xAArEQACAgICAQMEAQQDAAAAAAAAAQIRAyESMQQTQVEUImFxsTJCkfEFUuH/2gAMAwEAAhEDEQA/AMSsSr6RAhiYHf4QwWSKevGJkaK1eMSy62+t8AFqX1peLStanHlFJGiyDcRIF5dafWkWZN9YHK9zpuizLeg4QAFQ1Kf51ieQd/lA9HqBU74vS5goKekSVLSzRv8AkbDU3IsKi8ZLtDt099ASADYXoaUOaopfMAR0iztHFLnalQaKC1TcCp00N2N/7RmttzFYjpTWsc/JOU58X0jp4cShDlW2inL2s5Ytmq2ZWBN6FK013R681mNbkmtfzinLUg0VcxOlBU+Q3wQ/YmJYA+xm3sO4bVuLU5wzj8IjnXbIVVh56xsOz+NYFe8wP2aVHCtxxsIzONwOJw4X2stlXQEgEHlmHziXZ2OUcjWE5YtraG4pL5OuyZhdS9AMoXMAKcqgcIRaM72f2yF3k/ZIIFKEevhB+aKNbTUa6HTWHeLmclxl2v4MXlYeMuS6Yi0eMYjZoaTWNhkHs0Md4YXieTgZr+6jEcaUHmaCAKKrPELPBxOzk43JRep/IRFN7MTxWmVuFGp8QIjkieLAbNEDtFjG4V5dnRk6i3gd/hFB2NIkBM3nFZ2+vSHOYgd/rj4RBJ7n6+X9oUQe2XlCgAyqxKD8YgVollKxKqASWIAA1rWKliWWjE0AJJNAAL+G+NlsbsFPmAPNZZSnce8/8IsPE+EGuymwEw6h2AaYRc7lruXh13xe2l2vw+HOUuWfeqjMfIaeMQ5F+NdjpH6OcOtM8yY37yqP6a+sXF/R/g6G8y/4x+UZDE9vp7f9OUEB3ub/AMK3Nofh+1uMOmSnNSo82avpBbIdBfaX6PGF8PNB/DMsfBlFz4DrGQxAEpzLmlkddVCMzfAKa8a+MbrZPaybpNCNpTIG+dR8I0OIw8jGIA6hqXG5l8Rfw3wWyKRyRcRX3JM9+bZZf/OCRM5EznDykRaE55pd7kCyoyXuN0audgpOHOVkkpwqjOSONarGd7abRVpSS5bk1NxlVVpS1KXPrFMuTjEZhx8pJGMmsBmcMcxsND4G8C5iM5CBSzsQAAKkljQAAamtBTnFvHYYo46LXqVBI84L9iFQYgzXRHCLZWAIzPYNQ2sA3nGXGuTVG/LLjFsObC/R/iJQzsuWYQbrPKFQd1UFeusGR2WxNKGbTrjpv/DWLI24q+7IlDoij5RMvadhoieCiNqi0qOZKXJ2yjM7Gu6lHZXQ6q2LmMDQ1FQZdNaGOfdreykzAurEq0tycjK2ahABKscqgNckWuAeBjqa9qm+6vkIH9pdofrmGmSGUAkAqRqGU5lPSooeRMRKLaGY58X+DmGCxZAqrEMDYjdHSOzZnYjDSxLdFdKhi6CYSAbAgqxGoNbRy7Z8vv5WtQMTypcmg1pwjpXYTHykYhA19SagsNK2925FuEYrUJpm7IueNoJTcHjVPeTCzBzDyj55lHpCkS5jMFOGcVNKpOVl695aAfvRqZe25LWDEV8fjHr44Fu7TWlTQV68o3WzmqNjcFseVKu3ebiwsOg0rziVtryycqspb7oNW/hF4l/V1cXIeutCD6G0BMf2Rw73yKD0y/zL3R5GDvsOuiWf2lVSVIcEbstD5GhiFO1iH7w6ivwgPiNh4iUO5OmZNyuBPToAwJ8lgDNnOGIeUpI1aUxU+KPX0KxPFEcmdBTa0jELkLK1dxFD5GMn2g2OZRzocyHdvH5wDTEqx7j94fZaqPXodT/tJjS7J2n7Wsmb71LE76dd49bwdEpp6ZlGfXWK7TOIi1tXDmVMZDoCacaHT4+kDne8WKtUPzcoUQ5unkIUBBn5MlnrlBNNToBzJNgOZjVdk9nUb2hKsdF4CliQd53V6wARHei7hcKBRR0UanmfONnsxxJkl3NAoCi2+w+JhbY+CXfwO7SbeZQZEskEijvUgiu5ab6and10zEjAnUigO9u7X5mJcTtGWrf6S33u12JOpqbxTfGOxqTAkUbsJypaKdfK39z6RcTEIuigkcb/AB/OACzOcWpbg2NTT63mJALPtdzpbda3whmF25OlvnRyDw1BFdCN4ik7Dcd+6/l5QwMo5wIhnRNuY6XisCs0nKykU3kMTlZPH5KYwOKnnOxtQCg+frWJMNjWCui1VTRs1LAyyCPe0qQB1AgdIxVRRqtXQUjD5N8q+DpeIlxb+Sjj8QSKnXfxjS9mMDklZi3vktTloL+vjGf2rJAUEcATTjevhb0g5hpj5VUVsAPLSG+Kk9oX5brRoFkDUnTp9f5jzIN3O/lApUfiYcyDMA7U68uEa3JJWzDGLnJRXYZTC2z0OWovQ06cI8RVAI+tYMY2eyYQKtaEbuB+EY5lfUViIysZlxcUnfyZ3beEKYk5dHAYUt71QRXTWsFezuJK4iXlFV0O7MdK30tUwL2+7Z0qb0pfXy4QsNishViMxF8unwjBnVtpG/C7gr+Do7yMk2zZqgEGoqa2zEDQ1zabwYh2jPcmimgW3XiYik7TqoOUghC170apBUEDSlLa25xR/aR3rWNHjScopv20Ys8eLpfsvSMc66EwSw3aKYtiTARdoI19DHpmA6MI0NCEamV2kB95epFj6a+MeTZkicKHLyDAA+DKLfw+MY6YBx5xWecy6NXoflxitAG9rdnla66cGuPBxp515QBRJkiYhLFQrL7/AHlpW9H1W1daRbw+2HQ+8R4/VIuDaUuZZ1puqv5aeVIkBnbFACjk5QQVrQm4oRWnKsZZjW4NRxBqPMRuNvyndFCKWoami57UpddadLxk52CTMKgynPulTRW6NbyN4hPRZrdg6v4h9eMKCX7Nn/ffyEKI5BQNnbVUUWUuUVuTdj4/XWCfaRymFlqNHep8AT8x5QCOwMSozGS5HFKP49wm0G+0NGwOHJqCHKkaEEqx377RVOLqi9OMWmZRXpD1asMVKxYlSYYKHS3NdIsygx0iSRIG/wBYuInwvABBLlEnXrFqVhQNfjDwANbdYd+toLamAsU9qzSgyD7QqQORoD8fIxTwMpie6CTuAFz0hYly7u5NArFAN9kBpzuanrvvF3B6Vr4EiOZna5No6vjRagiptFGKM1wFNKa3AzEAb7VjVYFAApcgEgWrXdAVKtmWgINKildK3tpY0hM+GQ955rMLEAAX8QIf4ktNCPNj0zUs0si7Lyoa/wCIAMjzprGWpcAhRQGlBv8AOpvFQYyU7UQMqjUsb+A0Bjadnu0mFlqJYQrzAG/fWtTDMs43xbGeHgmoPMo37I8xOInpKKFLZaVUaHgamtPCKmGmJkDEgd2p46X8Y1OMx0hpRYstGBIW2Y0rSwNb0reOb4/aUpVdQhDivfzmneuDlpalQPCCEkm9+xTPBzitVugRtn/UcsKBSapUUJAtanT1hmBUAUJ01O81OuuvOLOHAdVANhYE2+MQY7C0Nf8AEY3Pk2mP4KNUH8MKqhago5ApqwdaU6Bgpgm+CpGaw2KB9hc5mZQv2gWZgt760J8QpjYS1nF1Qy7scoOgqeZtGrxU0nZi8vtAiZg+UVXlsPrjG6fs5Py1opO9Q1/W3rGfxWFKnKwKtwYUjXZkAP6w6w4YlG94U4RcnYXpFCbJ+qQAOZRS14iw0ss6LQ95lFuFRX0h8jCN7xsp0uAWpwG7rF6WSCSq5Bx1N+pqYz5fIjDXbNGLxpT30g9tHFlSGVwmU8yelFBNdNbawI2n2mR1oUzVpUMFAqKGtAK7vUwMx20UUXY04ggkC4Nt97ecZzae3wwKIiom/wC07HiWPyoIycsmTXS/BtWLFj29s0//ANSp+L+N/wDlCjnn6yfqsewz0X8h6sPg2f7Yd2JDqSV0Wi1oLC1LjhFh9pl0KTUz/wC4V6HqL31vGHfE5TRhQnSC2BxooB8/qkKljcFaLxyQnpl+XhkdqCq1pS2ahrS/LS4rDp2FZCQw5V3fmNd8LDvcWB3/AJQSwgbPmJzD7Sg613H8omPlSh3tFJ+JCauOmCv1gLzhHFMdDQQTx2xZbVeU4Q1ujmgrybd0MBcTJeWaOCrcPyOhjZjzxyK0zBPDKD2ieu83h6zAKwPOJp9fKITjfGGiz15vfmgineuTxAXyNj5wZwcjOut7ab4zc+fc2px+Ag1snFig06RzvIi9tHT8eX2pF929nVhc8D9WER41PaqrMrK1K6Zg1Ld2g7vpr0iWcucUFr+cRo2QiptprSkIxZOLtdmmcIzjTBkllrRDY8YJLg2KZgaV086dYDY+aFfMNDwi5g9s5VpmqL2OmnnrD8tyfJe4zDOUcSxxe0Xpe0WRWQqpqACSAWUa0Vt1d9IG45c6qaXrm8qgX4RSxOKr3VPeY7jGm2WrCXkcrSlrcqaxVy9NX8/wTnmsjS+Nv9kexJZyAWqa1vSFtRKJ0tFfDuEbKTpWkUNs7RpVbQqKcp6M82oqyjhcUyhCpoUmK2bQjvAUtc1t6x1vaWfJ+s4d8yEVdBcod5y8Cbnh005XgF/00Q5MocOQSK93T687XjRYPtJMw7B5bdQbg8iN/XWOnj6Zzcu2rNDg+3U9CcxDjgbU8R84P4ftzKcUmyajwYfzRgdt9ocNiELLhvZTjTvI3dN7kratq7q31gRh8Qxtp9cOMMbS2xajekdXbtDs8i8j/wDmtfMGBm2e0OHylcPIRGIoWZEzLXgt78zGUwyWqQRTU/avytl+rxOz3CotyCL0uemp6+kY82f+2JtweKl90v8AAwziCpdsq2zEjMSOIAN+G6KG1dsLQ5VyV0G/hemkT7QnLLRqMrjeASQDSwrp6xl8fNLDMSWJ3mEwgpu2aMkuKKk/HMSannTdEMnCu9xYH7R0504xLhMCztmNkGp403QfGXQAD0joQgjmZMjbAn7KH32j2DHehQzihXJ/IIZgbEVime6e7UDrHucmJ5Eh3OVEZjyHxOg8YVOq2WjJx2PwO0GRgSbb42OzMUhoQSK/KA2F7C451zpJqOGda+VYsYfDTpDBJ0t5e64sfG6k23GMHkRi1cTf4+dPTZpMTghNGbvAgVpuJ6QDxGIyVSYhZQPdc18hYjfcaQfwAXVcxApWpivtzZvtcrqDWpB1ANqk1vysBGXDkXLizVN6ox+NwgoXl5ioNCpuy+Wo/MQLziNthuzs2Uaq6BdRXxGu/hQimsCNv7IVe+e4xtQABCdNRoa+cdOGZdXZz8mB/wBSRnD3sw6HWm+nzrHuBmurALU13XhSWyvkYDvd013GoobA1pSNZ2b2aveLKWKsb0OhNVpS1KH1HgZpKMW2GFOTVex5hncgDKQRvMSz5GYd6tdbfV4MzEKuQtBWhFfEaCGGVmFwRy4Wjk+orujox62ZPHyKISRm5+NYBy5YZ7C1dDwjoGMwCshqIybYQBxS16U+vHyjZhzppickLaYQ2TslS1V3mwHX0jQ4RAGKOtyLVsNK6+ESbFw2VRXhwh2JQs2VyQu6m48bGtYzSy85bGxSWkC9p7LKzEJsDv5E2ufjHm0uzqMmZe6w4motQnXlBPETw0uhuyC5ob0tWvOoiJWJSrMRTWvHx11iY5JRqgljUlsxTYZgozgVDVtvpvr5Qs/Qxc2o9KqDbNpzpfdwv4xFsvAtNfKKW49fr6vHUhOo8mc7LC58YlnDyC5sFybqjXgai/1SDOA2c+ehWoAqFFlHvXteg8PGNPszZctAM4DE6mxPDw6coKnDS2CqqqrDQgUPnYGxMY5+UpNo0QwqBn/1B607u/cbEDePPSIH2MCjkmpprQWpTgYv4jFlGoxCgC5NDzFN9abvnAg9qnRwVVSoPusM1RwjNGTb2Tm8qOLXb/BltuZUOReNK7+f5QLDZmv7ojdYjHSMQSzYaSj/AHgla0PA14wNbZ0hyaoqndlqPQGhHhGuGeEXTOfk8xS9gdKmA2oNNNIewuYe+zlUnKxHqPlEZJWzGsbYZ4S0mIU4vod7T6qIUMqOXrChtosDcLs4C800/CDc9Tu8IO4faOSgQBFG4fWsATOhwmDeY5uRSn2Lab7Ok7M7YTXAQ5dKZgKMPK0XDhXf3lZswrTWxuD0tGD2NNl6ZqNHUNnsmIkIyFc0ugfSqlVpv3akUtcxjyYnOTTb0tF4JPsyeKdZNASFzWFSaEj6v8ov7Idi9agqdDWoIIIqNCvCl9OsBe0OMBfIbjvE110NT1pWC3ZjDlUsDobnXfpy8t0Uh9uNN9nY8eblj3+g860NKjKd3gLV00pA3bOyUmIy2NQQd3rBj9XLkZmIFNQxv4E6X319Igx0gIDVgQKAXpx3dIXzlGVoYqejiO2sA0pyrAgD3TvIHxI0rGq7M7SDkO9c1lJua0AFddfhFztlswPLL2DKCankdARrW2vpGH2JjTLfXu1NRW31pHUv18N+5lS9LLXszrEyUj5WW9DfdUGx18DDJmFyXzUHA39Rr/aBezdsIuWtKGkaBmR1BBN91h0/zHJkpRdM3UCMU2pUVgR7Jc6ZsooSfl+cad3ljQGlTmpagGtOPSB+2cKmQFReoIG/ia8NPjF4P2I96ZZR6Uy9Dy5+cX/1NZlAwFtSa+tKRQ2dOSikgUtXfrWNBh8VKK5WUdSaV01J6QttRe2Q010gbitkoi5stQbkA8OpsPWBePw4BI0XcKeWvWD20sSGUUpRtRqNa2IpbSMn2sx5Esgkaf4v4nyMNwuUp0guo3IzGLniaQgBzqxFaALlAtZRUtUm/WNNg9mIirndlt7o0Jpxp3oxmxHOdnPHw6xpXxWYZc1tQTW1vSN+ZtVFFPGgnc37moweJlhRkW5vU2oa6b7VrbpeLb4yxrVT5CoHHXQfKMfs/EZWymwPofHdByc5KZiagi++n18oxSW9jppGeOLec7O18xJFbgKAaCnALaIMXg8ozDNx71L7jp4RR2XiSjUb7JKnz/tF/aW01daLmp+Kmla0oLeMaeFM4tR3y7BoxeVtaRYbGgnWAuIngmIw4AhyxJmVwthl8WK6x5MmVBr62gC+JI0hrT3a3paHRwoPTL2cR7A72Uz7p8x+cewz0y3AmVxxhGZFDPHvtYPTGUEZc2hBBvGhwvaMovdHe3njGQklmIVRUmC8jZzGu8gVA3mmp6QjNii/6i0cMpdBvZs5sRNzFSSaC1xfj6RupLGWoOWqiMHsia0o1NUrS/eHSwpz9YMLtB0NM1VJAAHeBuKaVI/zGDPicqUekdbDBRgkabE7RKqMpub118L+G6BM/HTHmGrHvgAWpcUp4RXxE5y4AGosBfS5+uUU1xoZ6hgSLd01A5VFq+cLx4qjZojSD+IQmU2a7AVNNai+/wAI5HtWUytVlKVrahANDqK69eUdXw5olRc7wdAOsc62/MLNRjXIcq76X05axr8CT5NGLy1qx2y8UtBep4cOEabCYtstAT/n4Rz8EobGD+y9pAAZmANaU+t0M8jx72iMHkf2s2GDn5TesOxr+0IK1pWleNtOMQ7PKNqYfiXCOMhs4p8o51VL8mu7dlaUSjEVtW1OvOLszFMByhIylwCytblTcNYr7TcICeRt0gceUug50Up+1Mu80G7pGV25thpncqctQT1GnTU+cQ7Q2gzkkd0dYq4PC+0dVFb620/Pd5x1cGCMFya2Yc2dzfGIW2bhWKVFt/WDcmVVQa38o0OxNkIksVFbUNqjnppEuJ2cgoVFjv3W14cYx5c6lJmzGuKSMqXKNU3pqDF9seQtK2Pwi9iMAGGleArXfp84F/qRJVLHeL6cuUV5Rl2XbAe0FHvKe+blRWtOdqV6GBvtXMaPaOznLF2NGOtN4HT60gbL2fetI1wnHiYsuDlK6BqSC1yfSLC4JT7zt+6v5mDAwQUREki9xE+tfREfHivYqYXY6sbliPL4aRrsLsDZyijHOxG6YwINOCtrXnA6RLGgqDqKHWPVwJzZmJrfz/OFSzSfTo0RwY0toM/s/Bf+GX/E0eQPyN+L68YUK5z/AOxf0sfwYxtnA/e8IeuyK6A+J/KkadpgBINIhabWwoI0fUTZm+nigNJ2cVqK9frfBLAYFmYXOb7wJB8/7xZw6VgxszDgsBQ1oSLGlqb9ITlzuhsYRiVZmzHrUuxJF6kknqTcw6RifZnK6BSAMrZajqRvMaCYMo71KX1vSx4wE2vR1BFLUoBw/KM8MjlpjYlDHbRdjUEBriq2qDqKgCtfrWGbLkCvf7vAbz9fKK2Iw+Vs2nSLWEnJUZr137xx8bRqXHjoFdmtw0vuZ0I0tWoFdb8Typvjmfac/wCodxJJyjcDfTdWsdK2dNecxlylLEDX7IrapOg9NIZP/Rks1mediWDk+7LQZQKaZnNWPOg6RXxGoybloy+V1XucmMvMo4xWuppHVcT+jAioTEqeTyyp8SrNXyjM7e7FYnDqXdA6C5eWS6rT71QGUcyKc46CzQk6TMFNAbAbUKGoqRwJ4RoHxiThRGynXvcaXAO/rvjIPLy6aR7LnUrU0is8EZO12PhnktM3Qw6y5Rmh3KpQGotU6UbdXh1jI7W2k0w3NgbU+vq8a/YnZmfORf1h2lSa51lgAzDagNG9wEbzU/h0MaeV2O2bSjYYmv2hOm5utM2U+QjF6+HFL7nb/BebnJa6OLy5ZY8o1XZWWisxJANqCla798bfG/oukMtcJPZSbhZveBtoGADD+aM1iNiYjCDJMQK9Tldu8jVFwrLrcCxoaajhqnmjONRfZTAqnbRrkxAIGWhFri9BppurpfSumkQ4ufkUlTUUsta38N0Y1dqvQIvdPeBItUHdz0GsWNnYxsuXdfnpT84wSxcdnVjxfQaw88TDWgC0vregvzHhF3ECX7MKoUEXrQZuO6KeGVR3dbVroP8AP5Q/2etzfdGZ90glQHx2IrYiKSMB9Wh+NQq5BiuJhjVCOiGWpkwUr6Q3DC+kUnYnfEslyIvxpFUXsehQK4NaaxENrLT+8Q4zHKVowBjM4mqmosp0p6Q3Fh5rYrLm4Go/aH19CFGO9s33oUO+lE/Vr4NHNxYJoLmJUIrrSAeGmX5wXlPaFThx0MhPlsIYabQ8YL4OfkNSaj1GukAsPMAvSJmnxlnCxyo0W0MVnFFpy57vGKkrBn3zY04+tN2kC5W0iKcRpYW/vpflDp21mYAGlr13nqYqsckqRbSRO7qa1EX+y2xf1h2XL3AKs3AHSlftcIy87FU1Mdb7DYHJhEJsXozVHEVvzAyjwMM4NUvkTlypR12GcFhkloFloEUGthqeLH7TczFjNcaeUNRQLX+MeFuMWbdGHtnqpme++3paJZClSVatD6c4ZLxwpQd0g3504UiFsTmN68+PluibhCndt7KtMxvbbsHLmK8zDplmipyLQLM3nu6K+tCKAnXWo512e2PmxC51IEo5nVhS4PdUg6d6lQdwMfQEvFKesZHtPKQTc4QKZijMwHvFLCp3kBqdKQ2eesb4v/wmMbkrK0pird+vA39efGLzA6cAfSIdiTJQIM4VFciEmgrStOdqecL9qFXZJdKMXA0JIJpSvAUjm+inG/8AZp5OyzKxBUgg0IpTqIOT5UvFSCrrVXFxvBG8HcQbgxlEmXIIII1B1HUQa2NPIDCtqg+N/wAvSM8nKKdMicb2ch29sx8JiGksc1e8jfeU7+uoI4g7qVubNmqgqdeMav8AStgxMwqz1AzSXU135XIVhXd3ih/djkUvabqKU9Y6+C/IwqXv0y0M6g6kdFlY3exzCtIix2OIFFuN35Rh5e2aCgqOvyiZdsMbVrEfSSTsavKgw5iMRmudYpZ4opjrnf0hy4qtSLU1rb46wxYWiHni/cuZ98ee25wPbGkXiq+KLcBzhiwtlJZ4on2hiqiixRTianlrWLcvCkirWroCKnrS1IvSsOF3Cvw6841QhxVGHJk5Owd7Jv8AwHyj2DGV+LesKL8UK5gAnKe93TwNj5G8F8CZjWEt26Ix+Aj6HxGFlL9ha9IHz5ssbhC5QUux8crj0cbyOPeluvVGHyipisUB3a0I3G3pHYJuLl8B5RTmz5LaopHQQj0I3djvqJfByb9dQDnA3EbQqSRHWMXhMOa/6a+UAJux5LH3aV37xFo44xZWWWTOfSsSXdFOjMoPQkAx9HbLqZSFRbKRyFGPlHKcV2DY5Zsk1KkNSwrlNacjaOmdlsbVfZgXWpG4iuo+cI8lLnH27KJtp2F3BAuGPpAzHbbeW2T2YYU1YE6wYZxXnwrU/wBoFbVklwasFtSg49YTO0riwjV7JMGc4UhQpN2K1oKdTE5wyEkhi1zetBrpzpAqTiDh1CqC5Jq56iw8qxekzG1GhuRuv8N8Uio1tb/gtL8FgS+A9YF7dlZ5LC3c74I/Dr/KTBNbnd0Ovnvih2gnCXh3NKFhkHGra+lT4RMoqvwRF7RjnnFVC1rvINx5G26KqlQorahI4C5rTkLx4DW8NmSi65a6XHzhBqRocEihR3BXmWqaeOsFTiVRUyrlZgS2/QkD0ofGBexcO7yyFuyUBuKlfsm+8UI6UjzET+/lJByilRy19axXKvseuyq3L9FvHyP1lGkbpilTwpqfhGWbsXJQ0yCotcVPrB/B7YSXiJSkjM+a3IC/xEavGYBJozA0PEfMb43/APHw4Yv2zPmf3HL32BLX7C/wiKz9n5TaovlG12nsqYgLZS6jelz/AA6+kZOZt6QrFWdVI1Dd34xsd+xRUDH7LIxtVDxQ09NPSB+0+x06WDMlsZo1ZbhqeB73oesbXAP7SjIC4O9RmHmI1ODwDKuZxTlv8YItkOj56kyGc0UVr9awYwuBCUAo78vdX8zz0gxtzDKuInKMqpnc21OYkmviY9wE9j/pyZWZjqR8/wDMOoS2UWlZTrmfedw8/j/mCWztmFhnckIPNuQ/Py4wcwOwEl0ed3n1CDSvPiYdjpii70JGiDQdT8hA2HYP9jI/8Q+vGFDv2pyT+CFEWFHVNvYZ2UOlTQEFRS++vUUPnGIxW0OcbDZm2B7pgX2h7IrPq8mYZTm9BdD4ChH99Ihoa7iZCbj3NlERPjWA9025Wi62wMfJIGQOBXvIwPSgND6b4vBJxXv4abm4EAj+NTbxERxIc38GbxO1xT3lHGrCKDbbSvvr4Gvwg9iezsud72GmI/Ey/wD3LQnxgVM/R1MJ7jBB+I19AKj1g4oFNv2NFsTbBAIrUECkOk7SyTyykBveyngbG3A/OKewuyowqu82dnA91FFFBrqSb15WGuu7ObUV3n+0R0RlsFYstRb7WXJQ8CwhGbC8ir/A2LrbO04HGJNUMjKNAy2qpO6nwMOdAWrqBcRyTs72oyPZsj6EHRuX4hHSMBt2XOUKKI+8E2NOBPwPrGPcXxkqf8lnFdx2iyyKSSdb18TEktKKPL69Y9WSx+yfI3h5AUUYqu/vGnpqYj3sqeIpJtWOd9vO0AGOkSCwCS1ImXsGm0pXhlARjwBMGe1PbuTh1ZMORNn0oDTuKfvHiRrS3zjjc52cszkszEszHUljUk8yTGnDitNvoq5U9HSWkkGhsRrFzAYYsxoPdUuQd9PjrXoDHPcD2nxEtVSqOqjKA61IA0GbWg3QVTt5OtkkS1YU7y5s1RvvWEy8SaetjfXi0bDO0tc+bKad3jcQCx20RLUuzU+JPIQBxO38TNOYqS3Fj8jSKEzAz5pq7V87dABSDH4cm/v6Jl5EUtdnsnarHEpPc6MPBbj5k+cdp2ZtOwvHHk2Sqijt4WH5sPCNBs/a5kqqA51FhqKAbsza+UdBwpLj7GZTTezr2GxYaLby1OoBjA7J24rkZWv90625b4PptI0iE/ks1fQadgOQgRj8VuBipO2nbWvjAfE7Ryd5mVP9wDHwU2r1rFkyNIDL2VLu8+e4VGdmArTViQKnU03KDBP2sqSmWUoQfep3j0Xd1N+UCcft8sTlqTpnc1bwH2RytAWbimc6kkxbbFV8hXG7WN6W43q3id3SByo71OgAqSbADeSTYDmYbMMuUKzWObci0L+NbJ+9flAfaG1XmDJZEr7i6VGhYm7nr4ARKRIWrJ/8yeb/APCFGbhRNAdHkY8jfBnDbdYUveOY4XtLumJ+8n/E/nB3Zu05M0qizAHagCv3Kk6Cp7pPjFNo08oyOiYftATqax623LkRk2w7SyVdgjcH7p8jEb4yUjUeeg5XPwEFkVE0kzaQLesNbaBa0Zg7awwaomF6fdQiv8eWC+z+0WDrVy43UKGnmhtBsiUoroo7axpCNrQXMZGRt8Gzy0YUpbXz3x2DB9qMCoJR5aBtaN3j1DD4xJPxWz5w76YaYPxrKf5kwX8iZy5HI8PtGS3vS2HRqjyIglIx8ncXXqUA9aR0hez2zXuMNJ/dRl/pEQzOxmzT/wBkDpPmL6F4iUYyVNWRFuO0zFL2gVBQT3A4L/8AFoF4/HS5gOafMI3ilB40N/GOiN2K2d9wj/8AIPzaIz2L2Zz/AP2B/wAoXHBCLtJEynKXbOXrg8L95vJfnEb4fDfZqeoSOpL2N2Uv2QeuJ/8AnDpvZrZo9yTLc/8A3Gf0DGHFDl8pJHFB1t/SDEL4uUrWVGHGhP8AVSOvYTZmCUXwknxw7N8UpF846TLFUkqoG9Ulr/U6n0g0RRx2Q86ZQScNMPOXKYj0BEE8L2S2jNIBksi8XdU/lzZv5Y6Hie2klNXToXofJUYesCsR28ltXLUjkjD1ZiP5YC1AWV+jqYLzsTLT8KAufNstPWCWH7JYSVdi8xj99reGUIPOsUMV21bRVI6sE/lSgPiIBYntPPJqrhOSKAP7wBRuZckopEtAi7zTKPGlAR5xQxuNRRR5ub8KXHmKLTrGOl4zEzzQZ5p8Wp4aLBZOzM0JnxM1MOnF2UeVSAegNYigI8Z2gIGWWqoOPvHzNhAKfNdmBbOzNpYknpx8IOPtjZ2G/wCkj4qYPtsMiV5FxXyU9YB7W7W4ifUVWWlxlljKaG9C/vEcgQOUSkSeuqoKzWyn7i0Z/EA0X94jpFPEbXalJa+zH3gauer7uigeMDRCiwHkex7WPIkD3N1+vGFCrHkAA+FChRABPAdocTJUok1shpVGCzEt+CYGUeAggnarNabhpTD8BMs9aNnTwCiM5HkAGzwuI2dOrnZsO27MrEGv4kzgeKLEg2LKcj2OMksTuMxQfI0b+WMTWEYKA1m0th4iUtXXMvFasPhA1Q4FcjU40NPOA8qYV91iv+0kfCLibaxCignORwZs39VYigLqbQcaMR0Zh84tStuz10nTB0cwJ/a8w3YS3/3SkPqFBhw2sd8mQf3GH9LiI4gaFO1GJH/qZv8AFEydrcSP++56/wCYC4ftIU/9LhT+4/zcxcTten2sDhj0zD84OIBle3GJA98nqP7xWmdsMS2s1/AIP/bFI9sU3YDCjqHPwYQxu200Ci4bCpzCOT6zCPSJoC0+38Q/25p6MR6IBENJ8z/tzHrxDt8YrL21xYNVMtekpD/VWKz9q8a2uJmD/blT+gCkFBYYGxMTlzCUV5UCnrQ7oqHCOD35kuWPxzFr5A1gBisdNmf9SbMff33ZxfkxMVwIKCzWo+BT/qT3mHhKlm/LM9B6x5iu0GFVSsjB1J+3OfMf4F+TCMqIcImgsPS+1OJRSkp1kqdfZIqMf37v/NAqdOZ2LuzOx1ZiWY+JuYgBj0GAB8egwysKsAD6w7NEVY9BgAkrCBhmaPawAO+t8KPK9IUAFGEIUKABR4YUKAD2FChQAIQoUKJA8hQoUQB7CEKFAB7ChQoAFHsKFAAodChQAewhChQAOWPVhQoAEYW+FCgA9EerHsKABv5Q7jHsKAD2FChQAf/Z",
+                "details": "A traditional French vegetable stew that's hearty, healthy, and full of flavor. Made with fresh vegetables and aromatic herbs, it's a perfect dish for any time of the year.",
+                "ingredients": [
+                    "1 large eggplant, diced",
+                    "2 zucchinis, diced",
+                    "1 red bell pepper, diced",
+                    "1 yellow onion, diced",
+                    "4 cloves garlic, minced",
+                    "2 tablespoons olive oil",
+                    "1 can (14 oz) diced tomatoes",
+                    "1 tablespoon tomato paste",
+                    "1 tablespoon chopped fresh thyme",
+                    "1 tablespoon chopped fresh rosemary"
+                ],
+                "cookingMethod": "1. In a large skillet, heat olive oil over medium-high heat.\n2. Add eggplant and cook for 5-7 minutes, stirring occasionally, until browned.\n3. Add zucchini, bell pepper, onion, and garlic. Cook for 5-7 minutes, until vegetables are softened.\n4. Add diced tomatoes, tomato paste, thyme, rosemary, salt, and black pepper.\n5. Bring to a boil, then reduce heat to low and simmer for 15-20 minutes, stirring occasionally.\n6. Serve hot.",
+                "rating": 4.6
+            },
+            {
+                "_id": 103,
+                "name": "Beef kosha",
+                "thumbnail": "https://static.toiimg.com/photo/54422265.cms",
+                "details": "A classic French beef stew made with red wine, bacon, and vegetables. Slow-cooked to perfection for a comforting and hearty meal.",
+                "ingredients": [
+                    "2 pounds beef chuck roast, cut into 2-inch pieces",
+                    "6 slices bacon, chopped",
+                    "2 tablespoons olive oil",
+                    "2 cups red wine",
+                    "2 cups beef broth",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "2 carrots, chopped",
+                    "2 stalks celery, chopped"
+                ],
+                "cookingMethod": "1. Preheat oven to 325°F.\n2. In a large Dutch oven, cook bacon over medium heat until crispy. Remove from pan and set aside.\n3. Add olive oil to the pan and brown beef on all sides. Remove from pan and set aside.\n4. Add onion, garlic, carrots, and celery to the pan and sauté until softened.\n5. Add tomato paste and stir to combine.\n6. Add red wine and beef broth and bring to a simmer.\n7. Return beef and bacon to the pan.\n8. Add bay leaves, thyme, salt, and pepper.\n9. Cover the pan and transfer to the oven.\n10. Cook for 2-3 hours, or until beef is tender.\n11. Remove bay leaves and serve hot.",
+                "rating": 4.9
+            },
+            {
+                "_id": 104,
+                "name": "Fish Curry",
+                "thumbnail": "https://pikturenama.com/wp-content/uploads/2020/06/low-res-maccher-kaalia-1.jpg",
+                "details": "A comforting and rich soup made with caramelized onions, beef broth, and topped with melted cheese and bread. Perfect for a cozy dinner or lunch.",
+                "ingredients": [
+                    "5 large yellow onions, thinly sliced",
+                    "4 tablespoons butter",
+                    "2 tablespoons olive oil",
+                    "1 teaspoon salt",
+                    "1/2 teaspoon sugar",
+                    "8 cups beef broth",
+                    "2 cups water",
+                    "1/2 cup red wine",
+                    "1/2 cup Parmesan cheese, grated",
+                    "Salt and pepper to taste"
+                ],
+                "cookingMethod": "1. Melt butter and olive oil in a large pot over medium heat. Add onions, salt, and sugar. Cook onions, stirring occasionally, for about 45 minutes, or until caramelized.\n2. Add garlic and cook for 2-3 minutes, or until fragrant.\n3. Add beef broth, water, red wine, bay leaves, and thyme. Bring to a simmer and cook for 30 minutes.\n4. Preheat oven to 350°F.\n5. Arrange baguette slices on a baking sheet and toast in the oven for 10-15 minutes, or until crispy.",
+                "rating": 4.8
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "chefPicture": "https://qph.cf2.quoracdn.net/main-qimg-754b63014d566183734d7d11b16c64dc-lq",
+        "chefName": "Juel",
+        "yearsOfExperience": 45,
+        "numberOfRecipes": 50,
+        "likes": 1000,
+        "chefBio": "While it maybe the norm for women to man the kitchen at home, it has never been easy for them in a restaurant kitchen which is unarguably a male bastion.",
         "recipes": [
-          {
-            "recipeId": "1",
-            "name": "kobutor Mangsho",
-            "picture": "https://example.com/kosha-mangsho.jpg",
-            "ingredients": ["Mutton", "Mustard oil", "Onion", "Ginger paste", "Garlic paste", "Tomato", "Green chili", "Turmeric powder", "Cumin powder", "Coriander powder", "Salt"],
-            "method": "Heat mustard oil in a pan, add onion and green chili. Fry until golden brown. Add ginger paste, garlic paste, turmeric powder, cumin powder, coriander powder and salt. Add tomato and fry until oil separates. Add mutton and fry until it changes color. Add water and simmer until the mutton is tender. Serve hot with paratha or rice."
-          },
-          {
-            "recipeId": "2",
-            "name": "ilish Macher Muithya",
-            "picture": "https://example.com/chitol-macher-muithya.jpg",
-            "ingredients": ["Chitol fish", "Bengal gram flour", "Onion", "Garlic paste", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
-            "method": "Heat mustard oil in a pan, saute onion, ginger paste, garlic paste and green chili. Add prawns, turmeric powder and salt. Fry until the prawns turn pink. Add coconut milk and simmer for 5 minutes. Serve hot with steamed rice."
-          }]
-      }
-
-]  
+            {
+                "_id": 101,
+                "name": "Katla kalia",
+                "thumbnail": "https://www.licious.in/blog/wp-content/uploads/2021/06/shutterstock_1865960914-750x750.jpg",
+                "details": "A classic French dish of chicken cooked in red wine with bacon, mushrooms, and onions. This hearty stew is perfect for a cozy dinner on a cold evening.",
+                "ingredients": [
+                    "4 chicken legs",
+                    "4 chicken thighs",
+                    "Salt and pepper",
+                    "1/4 cup all-purpose flour",
+                    "4 tablespoons unsalted butter",
+                    "4 ounces bacon, diced",
+                    "1 onion, chopped",
+                    "8 ounces button mushrooms, sliced"
+                ],
+                "cookingMethod": "1. Preheat the oven to 350°F (180°C).\n2. Season the chicken with salt and pepper, and dust with flour.\n3. Melt the butter in a large Dutch oven over medium-high heat. Add the chicken and cook until browned on both sides, about 5 minutes per side. Remove the chicken from the pan and set aside.\n4. Add the bacon to the pan and cook until crispy. Remove the bacon from the pan and set aside.\n5. Add the onion, mushrooms, and garlic to the pan and cook until softened, about 5 minutes. Stir in the tomato paste and cook for 1 minute.\n6. ",
+                "rating": 4.7
+            },
+            {
+                "_id": 102,
+                "name": "Ratatouille",
+                "thumbnail": "https://c0.wallpaperflare.com/preview/679/1004/961/ratatouille-food-kitchen-cooking.jpg",
+                "details": "A traditional French vegetable stew that's hearty, healthy, and full of flavor. Made with fresh vegetables and aromatic herbs, it's a perfect dish for any time of the year.",
+                "ingredients": [
+                    "1 large eggplant, diced",
+                    "2 zucchinis, diced",
+                    "1 red bell pepper, diced",
+                    "1 yellow onion, diced",
+                    "4 cloves garlic, minced",
+                    "2 tablespoons olive oil",
+                    "1 can (14 oz) diced tomatoes",
+                    "1 tablespoon tomato paste",
+                    "1 tablespoon chopped fresh thyme",
+                    "1 tablespoon chopped fresh rosemary"
+                ],
+                "cookingMethod": "1. In a large skillet, heat olive oil over medium-high heat.\n2. Add eggplant and cook for 5-7 minutes, stirring occasionally, until browned.\n3. Add zucchini, bell pepper, onion, and garlic. Cook for 5-7 minutes, until vegetables are softened.\n4. Add diced tomatoes, tomato paste, thyme, rosemary, salt, and black pepper.\n5. Bring to a boil, then reduce heat to low and simmer for 15-20 minutes, stirring occasionally.\n6. Serve hot.",
+                "rating": 4.6
+            },
+            {
+                "_id": 103,
+                "name": "Beef vuna",
+                "thumbnail": "https://static.wixstatic.com/media/05c508_5cf0028922b34244a5913784d2e337c9~mv2_d_2166_1282_s_2.jpg/v1/fit/w_1000%2Ch_1000%2Cal_c%2Cq_80,enc_auto/file.jpg",
+                "details": "A classic French beef stew made with red wine, bacon, and vegetables. Slow-cooked to perfection for a comforting and hearty meal.",
+                "ingredients": [
+                    "2 pounds beef chuck roast, cut into 2-inch pieces",
+                    "6 slices bacon, chopped",
+                    "2 tablespoons olive oil",
+                    "2 cups red wine",
+                    "2 cups beef broth",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "2 carrots, chopped",
+                    "2 stalks celery, chopped"
+                ],
+                "cookingMethod": "1. Preheat oven to 325°F.\n2. In a large Dutch oven, cook bacon over medium heat until crispy. Remove from pan and set aside.\n3. Add olive oil to the pan and brown beef on all sides. Remove from pan and set aside.\n4. Add onion, garlic, carrots, and celery to the pan and sauté until softened.\n5. Add tomato paste and stir to combine.\n6. Add red wine and beef broth and bring to a simmer.\n7. Return beef and bacon to the pan.\n8. Add bay leaves, thyme, salt, and pepper.\n9. Cover the pan and transfer to the oven.\n10. Cook for 2-3 hours, or until beef is tender.\n11. Remove bay leaves and serve hot.",
+                "rating": 4.9
+            },
+            {
+                "_id": 104,
+                "name": "Sorshe Ilish",
+                "thumbnail": "data:image/jpeg;base64,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",
+                "details": "A comforting and rich soup made with caramelized onions, beef broth, and topped with melted cheese and bread. Perfect for a cozy dinner or lunch.",
+                "ingredients": [
+                    "5 large yellow onions, thinly sliced",
+                    "4 tablespoons butter",
+                    "2 tablespoons olive oil",
+                    "1 teaspoon salt",
+                    "1/2 teaspoon sugar",
+                    "8 cups beef broth",
+                    "2 cups water",
+                    "1/2 cup red wine",
+                    "1/2 cup Parmesan cheese, grated",
+                    "Salt and pepper to taste"
+                ],
+                "cookingMethod": "1. Melt butter and olive oil in a large pot over medium heat. Add onions, salt, and sugar. Cook onions, stirring occasionally, for about 45 minutes, or until caramelized.\n2. Add garlic and cook for 2-3 minutes, or until fragrant.\n3. Add beef broth, water, red wine, bay leaves, and thyme. Bring to a simmer and cook for 30 minutes.\n4. Preheat oven to 350°F.\n5. Arrange baguette slices on a baking sheet and toast in the oven for 10-15 minutes, or until crispy.",
+                "rating": 4.8
+            }
+        ]
+    }
+]

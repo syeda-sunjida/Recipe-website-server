@@ -3,11 +3,13 @@ const cors = require("cors");
 
 const app = express();
 app.use(cors());
+// all data
 const allServices = require("./data.json")
 app.get("/all", (req, res)=> {
     res.send(allServices);
 
 });
+// id wise data
 app.get("/all/:id", (req, res) => {
     const Id = req.params.id;
     const category = allServices.find(item => item.id === Id);
